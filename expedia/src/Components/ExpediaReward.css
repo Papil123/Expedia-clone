@@ -1,0 +1,80 @@
+.firstDiv{
+    /* border: 1px solid red; */
+    width:85%;
+    height:40%;
+    margin-left: 100px;
+    border-radius: 10px;
+    position: relative;
+}
+.firstDiv>img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    display: block;
+    background-color: rgba(3, 3, 3, 0);
+}
+.innerDiv{
+    position: absolute;
+    /* border: 1px solid red; */
+    width:500px;
+    height:300px;
+    top:100px;
+}
+.heading{
+    position: absolute;
+    /* top:20%; */
+    font-size: 45px;
+    left:45px;
+    color:white;
+}
+.para{
+    position: absolute;
+    top:47%;
+    left:50px;
+    color:white;
+}
+button{
+    position: absolute;
+    top:70%;
+    left:50px;
+    color:white;
+    background-color:rgb(8, 103, 212);
+    height:50px;
+    width:180px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.secondDiv{
+    /* border: 1px solid red; */
+    width:85%;
+    height:200px;
+    margin:100px 0px 0px 100px;
+    border-radius: 10px;
+    position: relative;
+}
+.secondDiv>img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    display: block;
+}
+.innerDiv2{
+    position: absolute;
+    border: 1px solid red;
+    width:500px;
+    height:100px;
+   
+}
+.para1{
+    position: absolute;
+    top:65%;
+    left:15px;
+    color:white;
+}
+.para2{
+    position: absolute;
+    top:78%;
+    left:15px;
+    color:white;
+}
