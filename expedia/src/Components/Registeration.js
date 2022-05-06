@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+ import "../Routes/Registeretion.css"
+ 
 
 import { Form, Alert } from "react-bootstrap";
 import Login from "./Login";
