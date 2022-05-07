@@ -8,9 +8,9 @@ const Home = () => {
     <div>
       <div>
         <div> <BasicTabs/></div>       
-        <ExpediaParent />
-      </div>
-        <Footer />
+              {/* <ExpediaParent />
+              < Footer /> */}
+        </div>
     </div>
   );
 };

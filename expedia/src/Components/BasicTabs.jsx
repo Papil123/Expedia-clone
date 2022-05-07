@@ -47,7 +47,7 @@ const BasicTabs = () => {
   };
 
   return (
-    <Box sx={{ width: "40%", margin: "auto", justifyContent: "space-around" }}>
+    <Box sx={{  fontSize: '16px' ,fontVariant: 'normal', width: "40%", margin: "auto", justifyContent: "space-around" }}>
       <Box sx={{ borderBottom: 1, borderColor: "divider", margin: "auto" }}>
         <Tabs
           style={{ margin: "auto" }}
@@ -63,8 +63,10 @@ const BasicTabs = () => {
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
-        {/* <GoingTo/> */}
-        {/* <datePicker/> */}
+        <div style={{border:'1px solid black'}}>
+         <div > <GoingTo/> 
+         <datePicker/></div>
+        </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
         Item Two
