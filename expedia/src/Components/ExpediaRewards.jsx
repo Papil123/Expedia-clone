@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./ExpediaReward.module.css";
+import styles from "../Css/ExpediaReward.module.css";
 
 const ExpediaRewards = ({props}) => {
   return (
