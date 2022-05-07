@@ -1,5 +1,5 @@
 import React, { useState } from "react";
- import "../Routes/Registeretion.css"
+ import "../Css/Registeretion.css"
  
 
 import { Form, Alert } from "react-bootstrap";

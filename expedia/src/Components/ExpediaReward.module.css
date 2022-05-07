@@ -6,7 +6,7 @@
     border-radius: 10px;
     position: relative;
 }
-.firstDiv>img{
+.img1{
     width:100%;
     height:100%;
     border-radius: 10px;
@@ -15,10 +15,11 @@
 }
 .innerDiv{
     position: absolute;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width:500px;
     height:300px;
     top:100px;
+    left: 500px;
 }
 .heading{
     position: absolute;
@@ -53,7 +54,7 @@ button{
     border-radius: 10px;
     position: relative;
 }
-.secondDiv>img{
+.img2{
     width:100%;
     height:100%;
     border-radius: 10px;

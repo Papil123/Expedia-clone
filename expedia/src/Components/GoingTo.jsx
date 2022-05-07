@@ -2,7 +2,7 @@ import React from 'react'
 import {GoingBut,InputDiv,InputGoing} from '../component.styled'
 import DeleteIcon from '@mui/icons-material/Delete';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import PlacesAuthocomplete,{geocodeByAddress,getLating} from 'react-places-autocomplete'
+// import PlacesAuthocomplete,{geocodeByAddress,getLating} from 'react-places-autocomplete'
 
 const GoingTo = () => {
 
