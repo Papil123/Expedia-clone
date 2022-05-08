@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import TabPanel from '../expedia/TabPanel'
+
 import styles from '../Css/Flights.module.css'
 
 import {TravellerBut,TravellerDiv,GridDiv1,ExportButton,AddAnotherButoon,DoneButoon} from '../component.styled'
@@ -31,13 +32,16 @@ const Flights = () => {
 
     {/* Three small componnents */}
 
+
     <div style={{width:"90%",margin:"auto",marginTop:"55px",border: '1px solid grey',minHeight: "20rem",borderRadius:"10px",position:"absolute",marginLeft:"70px"}}>
+
             
      <TabPanel />
 
      {/* Return onWay  and Multi-city dic */}
 
      <div style={{border: '1px solid black',width:"90%",height:"50px",margin:"auto",marginTop:"-25px",justifyContent:"space-between",display:"flex",position:"relative"}}>
+
 
          <div style={{border: '1px solid red',width:"35%",gap:"15px",display:"flex"}}>
              <button className={styles.return}>Return</button>
@@ -46,6 +50,7 @@ const Flights = () => {
          </div>
          <div style={{border: '1px solid green',width:"25%",display: 'flex',justifyContent: 'center'}}>
              
+
             <button className={styles.traveller} onClick={()=>setAuth(!isAuth)}>1 traveller
             
                  <svg style={{width:"17%",height:"20px",size:"10px",}}><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6-1.41-1.41z" ></path></svg>
@@ -77,10 +82,13 @@ const Flights = () => {
                 <GridDiv1  style={{marginTop:"5px"}}>
                 <div>Children
                 <p style={{marginTop:"5px",fontSize:"12px"}}>Ages 0 to 17</p>
+
                 </div>
                 
                 <div style={{display:"flex",justifyContent:"space-around"}}>
-                <ExportButton onClick={()=>{setChildren(isChildren-1)}}>-</ExportButton>
+                <ExportButton onClick={()=>{setChildren(isChildren-1)}}>-</ExportBut></svg>
+
+
                     {isChildren<0?<p style={{marginLeft:"10px",marginRight:"10px"}}> {0} </p>: <p style={{marginLeft:"10px",marginRight:"10px"}}> {isChildren} </p>} 
                     
                     <ExportButton onClick={()=>{setChildren(isChildren+1)}}>+</ExportButton>
@@ -186,9 +194,7 @@ const Flights = () => {
                 
                 }
 
-               
-
-               
+           
              </button>
          </div>
      </div>
