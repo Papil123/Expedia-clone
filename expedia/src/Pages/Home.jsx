@@ -9,7 +9,9 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import ExpediaRewards from '../Components/ExpediaRewards'
 import {Footer}  from '../Components/Footer'
-import {Link} from 'react-router-dom'
+import {Link, Routes,Route} from 'react-router-dom'
+import HotelSearch from '../Components/HotelSearch'
+
 
 
 
