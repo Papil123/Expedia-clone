@@ -24,7 +24,7 @@ const Traveller = () => {
 <>
 {isAuth?
 <>
-<div style={{border:"1px solid black" ,width:"25%",height:"50px",borderRadius:"5px",margin:"auto"}} type="button">
+<div style={{border:"1px solid green" ,width:"25%",height:"50px",borderRadius:"5px",marginRight:"-350px",marginLeft:"10px"}} type="button">
 
 <svg style={{marginLeft:"-195px",marginRight:"1px",marginTop:"15px", height: '25px',width:"15%",}}><path fill-rule="evenodd" d="M16 8a4 4 0 11-8 0 4 4 0 018 0zM4 18c0-2.66 5.33-4 8-4s8 1.34 8 4v2H4v-2z" clip-rule="evenodd"></path></svg>
  <div style={{marginTop:"-40px",width:"70px",marginLeft:"120px",color:"grey",marginBottom:"1px"}}>
@@ -37,7 +37,7 @@ const Traveller = () => {
  </div>
 
   <TravellerDiv>
-      <div style={{marginTop:"-5px"}}>
+      <div style={{marginTop:"-35px"}}>
         <div>
             <h3>Travellers</h3>
             </div>
@@ -199,7 +199,7 @@ const Traveller = () => {
 
       : 
                 <>
-            <GridDiv1  style={{marginTop:"15px"}}>
+            <GridDiv1  style={{marginTop:"55px"}}>
                 <div>Children
                 <p style={{marginTop:"5px",fontSize:"13px"}}>Ages 0 to 17</p>
                 </div>
@@ -222,7 +222,7 @@ const Traveller = () => {
                   </>
                   :
                   <>
-                  {}
+              
                     </>
                }
                </>
@@ -254,7 +254,7 @@ const Traveller = () => {
 :
 
 
-<div style={{border:"1px solid black" ,width:"25%",height:"50px",borderRadius:"5px",margin:"auto"}} type="button">
+<div style={{border:"1px solid grey" ,width:"25%",height:"50px",borderRadius:"5px",margin:"auto"}} type="button">
 
 <svg style={{marginLeft:"-195px",marginRight:"1px",marginTop:"15px", height: '25px',width:"15%",}}><path fill-rule="evenodd" d="M16 8a4 4 0 11-8 0 4 4 0 018 0zM4 18c0-2.66 5.33-4 8-4s8 1.34 8 4v2H4v-2z" clip-rule="evenodd"></path></svg>
  <div style={{marginTop:"-40px",width:"70px",marginLeft:"120px",color:"grey",marginBottom:"1px"}}>

@@ -5,13 +5,13 @@ import Stack from '@mui/material/Stack';
 export default function NativePickers() {
   return (
     <Stack component="form" noValidate spacing={3}>
-        <div style={{display:"flex"}} >
+        <div style={{display:"flex",gap:"15px",marginRight:"-30px",marginLeft:"155px"}} >
       <TextField
         id="date"
         label="Check-in"
         type="date"
         defaultValue="2017-05-24"
-        sx={{ width: 220 }}
+        sx={{ width: 160 }}
         InputLabelProps={{
           shrink: true,
         }}
@@ -21,7 +21,7 @@ export default function NativePickers() {
         label="Check-out"
         type="date"
         defaultValue="2017-05-24"
-        sx={{ width: 220 }}
+        sx={{ width: 160,marginRight:"15px",height:"20px"}}
         InputLabelProps={{
           shrink: true,
         }}

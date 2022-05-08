@@ -4,7 +4,7 @@
     height:40%;
     margin-left: 100px;
     border-radius: 10px;
-    position: relative;
+    /* position: relative; */
 }
 .img1{
     width:100%;
@@ -14,29 +14,28 @@
     background-color: rgba(3, 3, 3, 0);
 }
 .innerDiv{
-    position: absolute;
-    border: 1px solid red;
+    /* position: absolute; */
+    /* border: 1px solid red; */
     width:500px;
     height:300px;
     top:100px;
     left: 500px;
-    
 }
 .heading{
-    position: absolute;
+    /* position: absolute; */
     /* top:20%; */
     font-size: 45px;
     left:45px;
     color:white;
 }
 .para{
-    position: absolute;
+    /* position: absolute; */
     top:47%;
     left:50px;
     color:white;
 }
 button{
-    position: absolute;
+    /* position: absolute; */
     top:70%;
     left:50px;
     color:white;
@@ -62,20 +61,20 @@ button{
     display: block;
 }
 .innerDiv2{
-    position: absolute;
-    border: 1px solid red;
+    /* position: absolute; */
+    /* border: 1px solid red; */
     width:500px;
     height:100px;
    
 }
 .para1{
-    position: absolute;
+    /* position: absolute; */
     top:65%;
     left:15px;
     color:white;
 }
 .para2{
-    position: absolute;
+    /* position: absolute; */
     top:78%;
     left:15px;
     color:white;

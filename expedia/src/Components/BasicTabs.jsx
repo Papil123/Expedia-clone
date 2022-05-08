@@ -47,8 +47,8 @@ const BasicTabs = () => {
   };
 
   return (
-    <Box sx={{  fontSize: '16px' ,fontVariant: 'normal', width: "40%", margin: "auto", justifyContent: "space-around" }}>
-      <Box sx={{ borderBottom: 1, borderColor: "divider", margin: "auto" }}>
+    <Box sx={{ width: "40%", margin: "auto", justifyContent: "space-around" }}>
+      <Box sx={{ margin: "auto" }}>
         <Tabs
           style={{ margin: "auto" }}
           value={value}
@@ -61,19 +61,24 @@ const BasicTabs = () => {
           <Tab label="Packages" {...a11yProps(3)} />
           <Tab label="Things to do" {...a11yProps(4)} />
         </Tabs>
+        <hr style={{position: 'absolute', width: '90%',marginLeft: '-280px',marginTop:"-1px"}}/>
       </Box>
+    
       <TabPanel value={value} index={0}>
-        <div style={{border:'1px solid black'}}>
-         <div > <GoingTo/> 
-         <datePicker/></div>
-        </div>
+     
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+       
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+    
       </TabPanel>
+      <TabPanel value={value} index={3}>
+        
+        </TabPanel>
+        <TabPanel value={value} index={4}>
+       
+        </TabPanel>
     </Box>
   );
 };

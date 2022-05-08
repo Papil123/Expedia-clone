@@ -1,12 +1,12 @@
 .foot {
     margin-top: 5%;
     margin-bottom: 2%;
-  
     display: flex;
     justify-content: space-between;
- 
-  
-    /* border: 1px solid black; */
+      width: 96%;
+    margin-left:25px;
+    
+    position: relative;
   }
   .foot > div > img {
     margin-top: 10%;

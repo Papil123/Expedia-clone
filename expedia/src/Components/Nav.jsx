@@ -3,7 +3,7 @@ import  styles from "../Css/nav.module.css"
 
 
 
-export const Nav = () => {
+ const Nav = () => {
   return (
     <div>
          <div className= {`${styles.nav}`}>
@@ -96,3 +96,4 @@ export const Nav = () => {
     </div>
   )
 }
+export default Nav

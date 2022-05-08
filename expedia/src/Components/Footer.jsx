@@ -5,7 +5,7 @@ import styles from "./foot.module.css"
 export const Footer = () => {
   return (
     <div>
-        <div className= {`${styles.foot}`}>
+        <div className= {`${styles.foot}`} style={{}}>
         <div>
           <img
           src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"
