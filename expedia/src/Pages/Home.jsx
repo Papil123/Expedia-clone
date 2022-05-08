@@ -53,7 +53,10 @@ const Home = () => {
     </div>
       {/* stay 4 component end div */}
       <div style={{marginTop:"-105px",position:"relative",marginLeft:"-150px"}}>
-          <button style={{backgroundColor:"#3662d8",height:"45px",width:"180px",color:"white",border:"none",fontSize:"18px",borderRadius:"7px",position:"absolute"}}>Search</button>
+          <button style={{backgroundColor:"#3662d8",height:"45px",width:"180px",color:"white",border:"none",fontSize:"18px",borderRadius:"7px",position:"absolute"}}>
+          <Link to="/search" style={{textDecoration:"none",color:"white"}}>Search</Link>
+         
+         </button>
       </div>
 
          
