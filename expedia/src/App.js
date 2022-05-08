@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <div className="outer">
         <div className="inner">
-          
           <MainRoutes/>
         </div>
       </div>
