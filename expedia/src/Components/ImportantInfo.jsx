@@ -6,11 +6,18 @@ const ImportantInfo = () => {
       style={{
         display: "grid",
         gridTemplateColumns: "1fr 2fr",
-        width: "992px",
-        height: "676px",
+        width: "1100px",
+        height: "600px",
         // border: "1px solid red",
         margin: "auto",
         textAlign: "left",
+        boxSizing:"border-box",
+        boxShadow:"rgba(0, 0, 0, 0.35) 0px 5px 15px",
+        marginTop:"40px",
+        paddingTop:"20px",
+        paddingLeft:"20px",
+        paddingRight:"30px",
+        lineHeight:"25px"
       }}
     >
       <div>

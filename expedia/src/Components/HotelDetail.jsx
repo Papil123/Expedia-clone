@@ -1,5 +1,5 @@
 import React from 'react'
-import "./hotelDetail.css";
+import "../Css/hotelDetail.css";
 
 const HotelDetail = () => {
   return (
