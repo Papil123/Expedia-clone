@@ -3,7 +3,7 @@ import ExpediaRewards from './ExpediaRewards'
 
 const ExpediaParent = () => {
   return (
-    <div>
+    <div >
         <ExpediaRewards />
     </div>
   )
