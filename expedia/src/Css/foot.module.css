@@ -1,0 +1,47 @@
+.foot {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  
+    display: flex;
+    justify-content: space-between;
+ 
+  
+    /* border: 1px solid black; */
+  }
+  .foot > div > img {
+    margin-top: 10%;
+  }
+  .footerdiv1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerdiv1 > p {
+    font-size: 16px;
+    font-family: "Times New Roman";
+  }
+  .footerdiv1 > a {
+    margin-bottom: 15%;
+    color: rgb(60, 107, 220);
+    font-size: 12px;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .footerdiv1 > a:hover {
+    text-decoration: underline;
+  }
+  
+  .secureimg {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+  }
+  .endfoot > h6 {
+    display: flex;
+    justify-content: center;
+    color: rgb(52, 59, 83);
+    font-weight: 400;
+    font-family: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  

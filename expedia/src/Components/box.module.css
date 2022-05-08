@@ -1,0 +1,50 @@
+
+.big_lake{
+    border:1px solid  rgb(178, 175, 175);
+    display:flex;
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    border-radius: 2%;
+  
+}
+ .ig{
+    width: 100%;
+    height: 250px;
+}
+ .left{
+    width:40%;
+    height: 50%;
+}
+
+ p{
+    font-size: 14px;
+    margin-left: 3%;
+    text-align: left;
+    width: 79%;
+
+}
+ button{
+    background-color: #3662D8;
+    font-size: 16px;
+    color: white;
+    width: 24%;
+    margin-left: -59%;
+    height: 50px;
+    border: 0px;
+    
+      
+}
+ a{
+    font-size: 14px;
+    color: #3662D8;
+      margin-left: 3%;
+}
+ .hed{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 3%;
+  
+    text-align: left;
+
+}
