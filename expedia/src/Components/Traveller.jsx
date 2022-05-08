@@ -37,19 +37,19 @@ const Traveller = () => {
  </div>
 
   <TravellerDiv>
-      <div style={{marginTop:"-35px"}}>
-        <div>
+      <div style={{marginTop:"-35px",marginLeft:"10px"}}>
+        <div style={{marginTop:"15px",marginLeft:"10px"}}>
             <h3>Travellers</h3>
             </div>
-            <div>
+            <div style={{marginTop:"15px",marginLeft:"10px"}}>
             <h4>Room 1</h4>
             </div>
       </div>
            
             
             <GridDiv1 >
-                <div>Adults</div>
-                <div style={{display:"flex",justifyContent:"space-around"}}>
+                <div style={{marginTop:"15px",marginLeft:"17px"}}>Adults</div>
+                <div style={{display:"flex",marginLeft:"0px"}}>
                     <ExportButton onClick={()=>{setAudults(isAudlts-1)}}>-</ExportButton>
                     {isAudlts<1?<p style={{marginLeft:"10px",marginRight:"10px"}}> {1} </p>: <p style={{marginLeft:"10px",marginRight:"10px"}}> {isAudlts} </p>} 
                     <ExportButton onClick={()=>{setAudults(isAudlts+1)}}>+</ExportButton>
@@ -59,9 +59,9 @@ const Traveller = () => {
                 
                 <>
               
-                <GridDiv1  style={{marginTop:"15px"}}>
-                <div>Children
-                <p style={{marginTop:"5px",fontSize:"13px"}}>Ages 0 to 17</p>
+                <GridDiv1  style={{marginTop:"15px",marginLeft:"10px"}}>
+                <div>  Children
+                <p style={{marginTop:"5px",fontSize:"13px",marginLeft:"-10px"}}>Ages 0 to 17</p>
                 </div>
                 
                 <div style={{display:"flex",justifyContent:"space-around"}}>
@@ -73,7 +73,7 @@ const Traveller = () => {
             </GridDiv1>
 
        <div>
-      <FormControl sx={{ marginLeft:"10px",width:"40%",height:"30px"}}>
+      <FormControl sx={{ marginLeft:"10px",width:"40%",height:"30px",marginTop:"15px"}}>
         <InputLabel id="demo-simple-select-autowidth-label">Child 1 age</InputLabel>
         <Select
           labelId="demo-simple-select-autowidth-label"
@@ -117,7 +117,7 @@ const Traveller = () => {
                 
                 <div style={{display:"flex",justifyContent:"space-around"}}>
                 <ExportButton onClick={()=>{setChildren(isChildren-1)}}>-</ExportButton>
-                   {isChildren<0?<p style={{marginLeft:"10px",marginRight:"10px"}}> {0} </p>: <p style={{marginLeft:"10px",marginRight:"10px"}}> {isChildren} </p>} 
+                   {isChildren<0?<p style={{marginLeft:"0px",marginRight:"0px"}}> {0} </p>: <p style={{marginLeft:"10px",marginRight:"10px"}}> {isChildren} </p>} 
                    
                     <ExportButton onClick={()=>{setchildSelect(!ischildSelect)}}>+</ExportButton>
                 </div>
@@ -147,7 +147,7 @@ const Traveller = () => {
                 
                 <>
               
-                <GridDiv1  style={{marginTop:"15px"}}>
+                <GridDiv1  style={{marginTop:"25px" }}>
                 <div>Children
                 <p style={{marginTop:"5px",fontSize:"13px"}}>Ages 0 to 17</p>
                 </div>
@@ -227,25 +227,15 @@ const Traveller = () => {
                }
                </>
             }
-            {isAnother?"":<>
+            
             
                 <AddAnotherButoon onClick={()=>setAnother(!isAnother)}>Add another room</AddAnotherButoon>
-                    <div>
-                      <DoneButoon onClick={()=>setAuth(!isAuth)} >Done</DoneButoon>
-                    </div>
-            
-            </>}
+                   
           
-           {isChildren?
-           <>
-             <AddAnotherButoon onClick={()=>setAnother(!isAnother)}>Add another room</AddAnotherButoon>
-                    <div>
-                      <DoneButoon onClick={()=>setAuth(!isAuth)} >Done</DoneButoon>
-                    </div>
-           
-           </>:""
-           }
-      
+           <div>
+           <DoneButoon onClick={()=>setAuth(!isAuth)} >Done</DoneButoon>
+           </div>
+    
      </TravellerDiv>
     
 

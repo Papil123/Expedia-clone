@@ -15,7 +15,7 @@ import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import {Footer} from '../Components/Footer'
 
-const HotelSearch = () => {
+const HotelSearch = ({goingTo}) => {
 
 
   const [age, setAge] = React.useState('');
@@ -30,6 +30,7 @@ const HotelSearch = () => {
      <div>
       <Nav/>
     </div>
+    
     <HGrideDiv >
       <InerGridDiv height={'50px'} >
         <HGrideInnerDiv>
@@ -39,8 +40,8 @@ const HotelSearch = () => {
 
           </div>
           <div style={{height:"100%"}}>
-            <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"-19px"}}>Going to</p>
-            <h5>Indore,India(IDR-Devi Ahilyabai Holker Intl.)</h5>
+            <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"1px"}}>Going to</p>
+            <h5>Delhi Aero City Station</h5>
           </div>
         </HGrideInnerDiv>
       </InerGridDiv>
@@ -52,7 +53,7 @@ const HotelSearch = () => {
 
           </div>
           <div style={{height:"100%",marginLeft:"-15px"}}>
-            <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"-19px"}}>Check-in</p>
+            <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"1px"}}>Check-in</p>
             <h5>19 May</h5>
           </div>
         </HGrideInnerDiv>
@@ -65,7 +66,7 @@ const HotelSearch = () => {
 
           </div>
           <div style={{height:"100%",marginLeft:"-15px"}}>
-            <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"-19px"}}>Check-out</p>
+            <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"1px"}}>Check-out</p>
             <h5>20 May</h5>
           </div>
         </HGrideInnerDiv>
@@ -78,14 +79,14 @@ const HotelSearch = () => {
 
           </div>
           <div style={{height:"100%",marginLeft:"-15px"}}>
-            <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"-19px"}}>Travellers</p>
-            <h5>1,room,1 traveller</h5>
+            <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"1px"}}>Travellers</p>
+            <h5>1,room,2 traveller</h5>
           </div>
         </HGrideInnerDiv>
       </InerGridDiv>
-      <InerGridDiv height={'50px'} style={{backgroundColor:"#3662d8",color:"white",fontSize:"20px"}}>
+      <InerGridDiv height={'50px'} style={{backgroundColor:"#3662d8",color:"white",fontSize:"20px",textAlign:"center"}}>
         
-        <p style={{marginTop:"8px"}}>Search</p></InerGridDiv>
+        <p style={{margin:"10px 30px"}}>Search</p></InerGridDiv>
     </HGrideDiv>
 
 
@@ -100,7 +101,7 @@ const HotelSearch = () => {
        
         <div style={{width:"30%",height:"50px"}}>
 
-          <div><p style={{marginTop:"-1px",textAlign:"left",color:"white"}}>Check COVID-19 restrictions.</p></div>
+          <div><p style={{marginTop:"-1px",textAlign:"left",color:"white",paddingBottom:"10px"}}>Check COVID-19 restrictions.</p></div>
 
           <div style={{display:"flex",marginTop:"-15px",gap:"15px"}}>
             <div><Link to="/find" style={{color:"white",fontSize:"13px"}}>Find out more</Link></div>
@@ -112,7 +113,7 @@ const HotelSearch = () => {
 
    
 
-    <div style={{display: "flex",width:"88%",margin:"auto",marginTop:"10px",gap:"15px"}}>
+    <div style={{display: "flex",width:"88%",margin:"auto",marginTop:"29px",gap:"15px"}}>
 
       {/* Map Div */}
       <div style={{width:"25%",height:"100px",borderRadius:"10px"}}>
@@ -122,23 +123,23 @@ const HotelSearch = () => {
       <div style={{border: "none", boxShadow:" rgba(0, 0, 0, 0.35) 0px 5px 15px",width: "95%",margin:"auto",marginTop: "-33px",height: "40px",borderRadius:"8px"}}>
         <p style={{textAlign:"center",padding:"15px",color:"blue"}}>View in map</p>
         </div>
-        <hr style={{marginTop:"25px",width:"92%"}}></hr>
+        <hr style={{marginTop:"25px",width:"92%",marginBottom:'10px'}}></hr>
 
        {/* Searche input Div */}
        <div>
-          <h3 style={{fontFamily:"500",fontSize:"20px"}}>Search by property name</h3>
+          <h3 style={{fontFamily:"500",fontSize:"20px",marginBottom:'10px'}}>Search by property name</h3>
           <input  style={{fontSize:"20px",borderRadius:"8px",height:"50px",border:"1px solid",backgroundColor:"white",boxShadow:" rgba(0, 0, 0, 0.35) 0px 5px 15px"}} type="text" name="" placeholder="e.g. Best Western"  / >
 
       </div>
-      <hr style={{marginTop:"25px",width:"92%"}}></hr>
+      <hr style={{marginTop:"25px",width:"92%",marginBottom:'15px'}}></hr>
 
       {/* Filter By */}
-      <div style={{textAlign:"left",marginLeft:"10px"}}>
+      <div style={{textAlign:"left",marginLeft:"10px",marginBottom:'15px'}}>
 
         <h3>Filter by</h3>
         <p>Popular filter</p>
         
-          <FormGroup style={{width:"100%",color:"lightBlack",fontSize:"13px"}}>
+          <FormGroup style={{width:"100%",color:"lightBlack",fontSize:"13px",marginBottom:'15px'}}>
             <FormControlLabel control={<Checkbox  />} label="Hot tub" />
             <FormControlLabel  control={<Checkbox />} label="Spa" />
             <FormControlLabel control={<Checkbox  />} label="Hostel (portugal)" />
@@ -148,7 +149,7 @@ const HotelSearch = () => {
         
       </div>
 
-     <div style={{display: 'grid',gridTemplateColumns: "50px 50px 50px 50px", gap:"10px",gridTemplateRows: "40px 40px"}}>
+     <div style={{display: 'grid',gridTemplateColumns: "50px 50px 50px 50px", gap:"10px",gridTemplateRows: "40px 40px",marginBottom:'25px'}}>
 
       <div style={{border:"1px solid ",textAlign:"center",borderRadius:"10px"}}><font style={{verticalAlign:"inherit"}}>1★</font></div>
       <div style={{border:"1px solid ",textAlign:"center",borderRadius:"10px"}}><font style={{verticalAlign:"inherit"}}>2★</font></div>
@@ -158,7 +159,7 @@ const HotelSearch = () => {
 
           
         {/* Your budget Section */}
-       <div style={{textAlign:"left",marginLeft:"10px"}}>
+       <div style={{textAlign:"left",marginLeft:"10px",marginBottom:'25px'}}>
           <p>Your budget</p>
 
           <FormGroup style={{width:"100%",color:"lightBlack",fontSize:"13px"}}>
@@ -172,7 +173,7 @@ const HotelSearch = () => {
         </div>
 
          {/* Expedia Rewards */}
-       <div style={{textAlign:"left",marginLeft:"10px"}}>
+       <div style={{textAlign:"left",marginLeft:"10px",marginBottom:'25px'}}>
           <p>Expedia Rewards</p>
 
           <FormGroup style={{width:"100%",color:"lightBlack",fontSize:"13px"}}>
@@ -184,7 +185,7 @@ const HotelSearch = () => {
 
         </div>
         {/* Guest Ratin Redio Button */}
-        <div style={{textAlign:"left",marginLeft:"10px"}}>
+        <div style={{textAlign:"left",marginLeft:"10px",marginBottom:'25px'}}>
        
            <p>Guest rating</p>
             <RadioGroup
@@ -269,7 +270,7 @@ const HotelSearch = () => {
 
              {/* card Image start Div */}
             <div style={{width:"32%",height:"156px"}}>
-                <img  src={img_url1} style={{width:"100%",height:"100%",borderRadius:"7px"}} />
+                <img  src={img_url1} style={{width:"100%",height:"100%",borderRadius:"7px",marginLeft:"0px"}} />
             </div>   
             
 
@@ -289,7 +290,9 @@ const HotelSearch = () => {
                 </div>
 
                 <div style={{width:"40%",height:"60px",textAlign:"left"}}>
-                    <button style={{marginLeft:"85px",borderRadius:"10px",backgroundColor:"teal",color:"white",height:"23px"}}>We have 6 left at</button>
+                    <button style={{marginLeft:"85px",borderRadius:"10px",backgroundColor:"teal",color:"white",height:"23px"}} >
+                      <Link to="/hotelDetails" style={{textDecoration:"none",color:"white"}}>We have 6 left at</Link>
+                      </button>
                     <h3 style={{marginLeft:"95px",marginTop:"1px"}}>{Price}</h3>
                 </div>
 
@@ -314,10 +317,7 @@ const HotelSearch = () => {
 
       </div>
     </div>
-    <div>
-     <b> Explore a world of travel with Expedia</b><br></br>
-      <Link to="/explore">Discover new place and exprence</Link>
-      </div>
+   
       <div>
       <Footer />
       </div>

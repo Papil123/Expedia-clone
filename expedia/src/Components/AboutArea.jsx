@@ -2,9 +2,9 @@ import React from 'react'
 import "./AboutArea.css";
 const AboutArea = () => {
   return (
-    <div>
-       <div className='dam'>
-            <div className='part1'>
+    <div >
+       <div className='dam' style={{margin: "auto"}}>
+            <div className='part1' style={{textAlign: "left",marginLeft:"10px"}}>
                 <div className='child1'>
                     <h2 className='title'>About this area</h2>
                 </div>
@@ -18,7 +18,7 @@ const AboutArea = () => {
             </div>
             <div className='part2'>
                 <div className='firstPart'>
-                    <img src='https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=13&scale=&size=660x330&markers=icon:https://a.travel-assets.com/shopping-pwa/images/his-preview-marker.png%7C28.621194,77.216718&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=gn2l39HlrFyuTwgqqWZscNsMr8g=' alt='new delhi map'/>
+                    <img style={{marginLeft:"0px",width:"100%",marginTop:"0px"}} src='https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=13&scale=&size=660x330&markers=icon:https://a.travel-assets.com/shopping-pwa/images/his-preview-marker.png%7C28.621194,77.216718&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=gn2l39HlrFyuTwgqqWZscNsMr8g=' alt='new delhi map'/>
                     <p className='para3'>View in a map</p>
                 </div>
                 <div className='secondPart'>
@@ -58,10 +58,10 @@ const AboutArea = () => {
                           </div>
                       </div>
                       <div className='innerPart2'>
-                          <div className='last'>
-                              <div className='iconTab'>
-                                <span class="material-symbols-outlined">restaurant_menu</span>
-                                <h3 className='heading'>Restaurants</h3>
+                          <div className='last' >
+                              <div className='iconTab'style={{marginLeft:"90px"}} >
+                                <span class="material-symbols-outlined" style={{marginRight:"-50px"}}>restaurant_menu</span>
+                                <h3 className='heading' style={{marginLeft:"70px"}}>Restaurants</h3>
                               </div>
                               <div className='about'>
                                 <p>Restaurants on site</p>

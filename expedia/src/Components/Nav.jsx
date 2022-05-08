@@ -1,24 +1,25 @@
 import React from 'react'
 import  styles from "../Css/nav.module.css"
+import {Link} from "react-router-dom"
 
 
 
  const Nav = () => {
   return (
     <div>
-         <div className= {`${styles.nav}`}>
-            <div className={`${styles.navdiv}`}>
-              <div style={{marginTop:"5%",width:"10%"}} onclick="window.location.href='home.html'">
+         <div className= {`${styles.nav}`} >
+            <div className={`${styles.navdiv}`}  >
+              <div style={{marginTop:"5%",width:"0%"}} onclick="window.location.href='home.html'">
                 <img style={{width:"110px"}} src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2"alt=""/>
         
               </div>
              
         
-              <div style={{color:"black"}} className={`${styles.dropdown}`}>
+              <div style={{color:"black",marginTop:"-10px"}} className={`${styles.dropdown}`}>
                 <button  style={{color: "black" ,backgroundColor:"white"}} className={`${styles.drop}`}>More Travel  <span style={{ marginTop:"-2%"}} className="material-icons">
                   expand_more
                   </span></button>
-                  <div className={`${styles.dropdownB}`}>
+                  <div className={`${styles.dropdownB}`} style={{backgroundColor:"white"}}>
                     <div className={`${styles.dropone}`}>
                       <div className={`${styles.spandiv}`}><span className="material-icons">
                         apartment</span></div>
@@ -27,8 +28,8 @@ import  styles from "../Css/nav.module.css"
         
         
         
-                    <div className={`${styles.droptwo}`}>
-                      <div className={`${styles.spandiv}`}><span className="material-icons">
+                    <div className={`${styles.droptwo}`} >
+                      <div className={`${styles.spandiv}`} ><span className="material-icons">
                         flight
                         </span></div>
                       <div><a onclick="window.location.href='flights.html'"> Flight </a></div>
@@ -78,7 +79,7 @@ import  styles from "../Css/nav.module.css"
             <div className={`${styles.navdiv2}`}>
          
             {/* <!-- <img src="globe.png" alt=""> --> */}
-            <span style={{fontSize :"18px" }} className="material-icons">
+            <span style={{fontSize :"18px" ,marginTop:"-10px"}} className="material-icons">
           
               language
               </span>
@@ -86,8 +87,8 @@ import  styles from "../Css/nav.module.css"
               <a  style={{fontSize: "14px",fontWeight:"500"}}>Support
               </a>
               <a  style={{fontSize: "14px",fontWeight:"500"}}>Trips</a>
-              <a   style={{fontSize: "14px",fontWeight:"500"}} onclick="window.location.href='Signup.html'">Sign In</a>
-            
+             
+            <Link to="/signIn" style={{fontSize: "14px",fontWeight:"500",textDecoration:"none"}}>Sign In</Link>
             </div>
             
         

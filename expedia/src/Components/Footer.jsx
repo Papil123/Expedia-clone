@@ -1,27 +1,33 @@
 import React from 'react';
 import styles from "./foot.module.css"
+import {Link} from "react-router-dom"
 
 
 export const Footer = () => {
   return (
+    <>
     <div>
-        <div className= {`${styles.foot}`} style={{}}>
-        <div>
-          <img
+    <b> Explore a world of travel with Expedia</b><br></br>
+     <Link to="/explore">Discover new place and exprence</Link>
+     </div>
+    <div>
+        <div className= {`${styles.foot}`} >
+        <div >
+          <img style={{width:"100%"}}
           src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"
           alt=""
         />
         </div>
          
-          <div className={`${styles.footerdiv1}`}>
-            <p>Company</p>
+          <div className={`${styles.footerdiv1}`} style={{padding:"1.5%"}}>
+            <p style={{paddingBottom:"10px"}}>Company</p>
             <a >About us</a>
             <a >Jobs</a>
             <a >List your property</a>
             <a >Partnerships</a>
           </div>
-          <div className={`${styles.footerdiv1}`}>
-            <p>Explore</p>
+          <div className={`${styles.footerdiv1}`} style={{padding:"1.5%"}}>
+            <p style={{paddingBottom:"10px"}}>Explore</p>
           <a>India travel guide </a>
           <a >Hotels in India </a>
           <a >Holiday rentals in India </a>
@@ -31,13 +37,13 @@ export const Footer = () => {
           <a >All accommodation types </a>
           <a >Travel blog </a>
           </div>
-          <div className={`${styles.footerdiv1}`}>
-            <p>Terms and Policies</p>
+          <div className={`${styles.footerdiv1}`} style={{padding:"1.5%"}}>
+            <p style={{paddingBottom:"10px"}}>Terms and Policies</p>
             <a >Privacy Statement </a>
             <a >Terms of use </a>
           </div>
-          <div className={`${styles.footerdiv1}`}>
-            <p>Help</p>
+          <div className={`${styles.footerdiv1}`} style={{padding:"1.5%"}}>
+            <p style={{paddingBottom:"10px"}}>Help</p>
           <a >Support </a>
           <a >Change or cancel your booking </a>
           <a>Refund process and timelines </a>
@@ -48,7 +54,7 @@ export const Footer = () => {
 
          <hr/>
    <div className={`${styles.secureimg}`}>
-     <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt=""/>
+     <img  style={{margin: "auto" }} src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" alt=""/>
    </div>
    <div className={`${styles.endfoot}`}>
     <h6>
@@ -58,5 +64,7 @@ export const Footer = () => {
 
    </div>
     </div>
+
+    </>
   )
 }

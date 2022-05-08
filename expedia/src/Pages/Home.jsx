@@ -10,13 +10,15 @@ import Checkbox from '@mui/material/Checkbox';
 import ExpediaRewards from '../Components/ExpediaRewards'
 import {Footer}  from '../Components/Footer'
 import {Link, Routes,Route} from 'react-router-dom'
-import HotelSearch from '../Components/HotelSearch'
+import HotelSearch from './HotelSearch'
 
 
 
 
 const Home = () => {
+
   return (
+    
     <>
     <div>
       <Nav/>
@@ -37,8 +39,8 @@ const Home = () => {
         </div>
         <div style={{marginTop:"60px",position:"absolute",marginLeft:"25px",display:"flex",width:"30%",justifyContent:"space-around"}}>
               
-              <div>
-              <FormGroup >
+              <div style={{position:"relative"}}>
+              <FormGroup  >
                 <FormControlLabel control={<Checkbox  />} label="Add a flight" style={{color:"grey"}}/>
               </FormGroup>
               </div>
@@ -64,7 +66,7 @@ const Home = () => {
          
          
       <div style={{border:"1px solid  rgb(178, 175, 175)",display:"flex", width: "90%",height: "250px",marginLeft: "5%",borderRadius: "10px",marginTop: "150px"}}>
-        <div style={{width:"40%",height: "50%"}}><img style={{ width: "100%", height: "250px",borderRadius: "10px"}} src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_BLUE+SEA_300dpi.jpeg" alt=""/></div>
+        <div style={{width:"40%",height: "50%"}}><img style={{ width: "100%", height: "250px",borderRadius: "10px",marginLeft: "-1px"}} src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_BLUE+SEA_300dpi.jpeg" alt=""/></div>
         <div style={{ width:""}}>
             <h1 style={{fontSize: "30px",fontWeight: "500",marginLeft: "3%",textAlign: "left"}}>When you save more you see more</h1>
             <p style={{marginLeft: "3%",textAlign: "left"}}>Join Expedia Rewards to access member discounts of 10% or more every day. Plus,<br/>collect points and unlock even more perks. There’s a lot of world out there, and our  members see more of it.</p>
@@ -78,10 +80,8 @@ const Home = () => {
        <div >
        <ExpediaRewards/>
       </div>   <br></br>
-      <div>
-     <b> Explore a world of travel with Expedia</b><br></br>
-      <Link to="/explore">Discover new place and exprence</Link>
-      </div>
+      
+     
     <div>
       <Footer/>
     </div>

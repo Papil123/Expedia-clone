@@ -18,7 +18,7 @@ const CovidTab = () => {
 
          <div><p style={{marginTop:"-1px",textAlign:"left",color:"white"}}>Check COVID-19 restrictions.</p></div>
 
-         <div style={{display:"flex",marginTop:"-15px",gap:"15px"}}>
+         <div style={{display:"flex",marginTop:"1px",gap:"15px",marginLeft:"15px"}}>
            <div><Link to="/find" style={{color:"white",fontSize:"13px"}}>Find out more</Link></div>
            <div><Link to="/dismiss" style={{color:"white",fontSize:"13px"}}>Dismiss</Link></div>
          </div>
