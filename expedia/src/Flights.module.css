@@ -1,0 +1,107 @@
+.return{
+
+    font-size: 13px;
+    color: blue;
+    border:none;
+    height:40px;
+    width: 30%;
+    border-radius: 7px;
+   background-color:rgb(238, 245, 248);
+}
+.oneWay{
+    font-size: 13px;
+    color: black;
+    border:none;
+    height:40px;
+    width: 30%;
+    border-radius: 7px;
+    background-color:white;
+}
+.multiCity{
+    font-size: 13px;
+    color: black;
+    border:none;
+    height:40px;
+    width: 30%;
+    border-radius: 7px;
+    background-color:white;
+}
+.oneWay:hover{
+    background-color:rgb(238, 245, 248);
+    color: blue;
+}
+.multiCity:hover{
+    background-color:rgb(238, 245, 248);
+    color: blue;
+  
+    
+}
+.return:hover{
+    background-color:rgb(238, 245, 248);
+    color: blue;
+}
+.traveller{
+    font-size: 14px;
+    color: blue;
+    border:none;
+    background-color:white;
+    
+}
+.economy{
+    font-size: 14px;
+    color: blue;
+    border:none;
+    background-color:white;
+    
+}
+
+.traveller:hover{
+    text-decoration: underline;
+}
+.economyE{
+   
+    height:25px;
+    color:black;
+  padding-top: 10px;
+   font-size:16px;
+  padding-left: 15px;
+   
+   
+}
+.premium{
+   padding-left: 15px;
+    height:25px;
+    color:black;
+   margin-top:10px;
+   font-size:16px;
+  
+}
+.firstClass{
+   padding-left: 15px;
+    height:25px;
+    color:black;
+   margin-top:10px;
+   font-size:16px;
+  
+}
+.business{
+   
+    height:25px;
+    color:black;
+   margin-top:10px;
+   font-size:16px;
+  
+  padding-left: 15px;
+}
+.economyE:hover{
+    background-color:rgb(188, 223, 236);
+}
+.premium:hover{
+    background-color:rgb(188, 223, 236);
+}
+.firstClass:hover{
+    background-color:rgb(188, 223, 236);
+}
+.business:hover{
+    background-color:rgb(188, 223, 236);
+}

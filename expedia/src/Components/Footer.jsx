@@ -6,7 +6,7 @@ import {Link} from "react-router-dom"
 export const Footer = () => {
   return (
     <>
-    <div>
+    <div style={{textAlign: 'center'}}>
     <b> Explore a world of travel with Expedia</b><br></br>
      <Link to="/explore">Discover new place and exprence</Link>
      </div>

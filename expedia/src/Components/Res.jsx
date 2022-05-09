@@ -1,12 +1,12 @@
 import React from "react";
  import styles from "./Res.module.css"
-
+import {Link} from "react-router-dom"
 
 
 const Res = () => {
     return (
-        <div className= {styles.container}>
-            <div> <img className={styles.img} src="https://images.trvl-media.com/hotels/2000000/1310000/1304400/1304393/f45dec6a.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" alt="" />  </div>
+        <div className= {styles.container} style= {{border:"1px solid grey"}}>
+            <div> <img className={styles.img} style={{marginLeft:"0px",marginTop:"1.5px"}} src="https://images.trvl-media.com/hotels/2000000/1310000/1304400/1304393/f45dec6a.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" alt="" />  </div>
               
               <div className={styles.bottom} >
                 <h4>Deluxe Room, 1 King Bed</h4>
@@ -17,7 +17,7 @@ const Res = () => {
                 <p>Parking : free Parking</p>
                
 
-               <h5 className={styles.h5} >Cancellation policy</h5>
+               <h5 className={styles.h5}  >Cancellation policy</h5>
            
                 <p>    <input className="check" type="checkbox" />Non-Refundable </p>
                 
@@ -29,8 +29,8 @@ const Res = () => {
 
 
                 </div>
-                <button  type="submit"    className={styles.but}>
-            Payment
+                <button  type="submit"    className={styles.but} >
+                <Link to="/pay" style={{textDecoration:"none",color:"white",border:"none"}}>Payment</Link>
               </button>
         </div>
 

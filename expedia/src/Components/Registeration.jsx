@@ -1,8 +1,9 @@
 import React, { useState } from "react";
- import "../Css/Registeretion.css"
- 
+import {Link} from 'react-router-dom'
+//  import './Registeretion.css'
 
-import { Form, Alert } from "react-bootstrap";
+import { Alert } from "react-bootstrap";
+
 import Login from "./Login";
 
 function Registration() {
@@ -49,16 +50,18 @@ function Registration() {
   return (
   
     <>
+    <div >
 
-   <div>
+      <div>
           {" "}
           {login ? (
-            <Form onSubmit={handleFormSubmit}>
-              <h2>Create an account</h2>
+         
+            <form onSubmit={handleFormSubmit}>
+              <h2 style={{textAlign:"center"}}>Create an account</h2>
 
-              <div className="form-group">
+              <div className="form-group" >
                 <label></label>
-                <input
+                <input style={{width:"30%",marginLeft:"500px"}}
                   type="email"
                   className="form-control"
                   placeholder="Email address"
@@ -66,9 +69,9 @@ function Registration() {
                 />
               </div>
 
-              <div className="form-group">
+              <div className="form-group" >
                 <label></label>
-                <input
+                <input style={{width:"30%",marginLeft:"500px"}}
                   type="text"
                   className="form-control"
                   placeholder=" Full Name"
@@ -77,9 +80,9 @@ function Registration() {
                 />
               </div>
 
-              <div className="form-group">
+              <div className="form-group" >
                 <label></label>
-                <input
+                <input style={{width:"30%",marginLeft:"500px"}}
                   type="Phone"
                   className="form-control"
                   placeholder="Enter contact no"
@@ -89,28 +92,33 @@ function Registration() {
 
           
 
-              <div className="form-group">
+              <div className="form-group" >
                 <label></label>
-                <input
+                <input  style={{width:"30%",marginLeft:"500px"}}
                   type="password"
                   className="form-control"
                   placeholder="Enter password"
                   onChange={(event) => setPassword(event.target.value)}
                 />
+                
               </div>
-
-          
-        <p>    <input className="check" type="checkbox" /> Keep me signed in</p>
+                      
+         
+              <input type="checkbox"   / ><p style={{marginLeft:"700px",marginTop:"-40px"}}>     Keep me signed in</p>
+         <h6 style={{marginLeft:"400px"}}>Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not select this on shared devices.</h6>
+         <h6 style={{marginLeft:"400px"}}>By creating an account, I agree to the Expedia<a href="https://www.expedia.com/lp/lg-legal" > Terms and Conditions</a> , and  <a href="https://www.expedia.com/lp/b/exp-rewards-terms"> Expedia Rewards Terms and Conditions.</a></h6>
+        
+        
         
 
         
-              <h6>Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not select this on shared devices.</h6>
+              
 
-<h6>By creating an account, I agree to the Expedia<a href="https://www.expedia.com/lp/lg-legal" > Terms and Conditions</a> , and  <a href="https://www.expedia.com/lp/b/exp-rewards-terms"> Expedia Rewards Terms and Conditions.</a></h6>
-              <button  type="submit"    className="butt-s btn btn-primary btn-lg btn-block ">
-              Continue
+
+              <button  type="submit"  style={{marginLeft:"550px",width:"200px",height:"35px",marginTop:"15px",backgroundColor:"#3516ff",color:"white",border:"none",borderRadius:"10px"}}>
+              <Link to="/" style={{textDecoration:"none",color:"white"}}>Continue</Link>
               </button>
-              <p onClick={handleClick} className="forgot-password text-right">
+              <p onClick={handleClick} className="forgot-password text-right" style={{marginLeft:"520px",marginTop:"15px"}}>
               Already have an account ?{" "}Sign in
                 
               </p>
@@ -120,12 +128,12 @@ function Registration() {
                   I got it you are in hurry! But every Field is important!
                 </Alert>
               )}
-            </Form>
+            </form>
           ) : (
             <Login />
           )}
         </div>
-    
+        </div>
     </>
   );
 }

@@ -2,16 +2,16 @@ import styled from 'styled-components'
 
 export const GoingBut=styled.button`
 
-    width: 30%;
-    height:40px;
+    width: 39%;
+    height:51px;
     border-radius:6px;
-    border: 1px solid;
+    border: 1px solid ;
    background-color: white;
    text-align: left;
    font-size:19px;
    color:grey;
-   margin-top:50px;
-
+  position: absolute;
+  margin-left: -655px;
 `
 
 export const InputDiv=styled.div`
@@ -23,6 +23,10 @@ export const InputDiv=styled.div`
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: auto;
     margin-top:15px;
+    position: absolute;
+    border:1px solid red;
+  margin-left: -650px;
+  background-color:white;
 `
 export const InputGoing=styled.input`
 
@@ -34,8 +38,7 @@ export const InputGoing=styled.input`
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style:hidden;
-  
-    margin-top: 10px;
+ margin-top: 10px;
   
 `
 export const TravellerBut=styled.button`
@@ -43,32 +46,35 @@ export const TravellerBut=styled.button`
      background-color: white;
    text-align: left;
    font-size:19px;
+   
 `
 
 export const TravellerDiv=styled.button`
 
     width: 376px;
-    height:auto;
-    border-radius:6px;
+    height: 350px;
+   border-radius:6px;
     border: none;
    background-color: white;
    text-align: left;
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   margin-top:5px;
+   margin-top:60px;
    margin-left: -45px;
+   
   
 `
+
 export const GridDiv1=styled.div`
 
     display: grid;
     grid-template-columns: 250px 100px;
-  
-   font-size:16px;
+    font-size:16px;
+    
 `
 export const ExportButton=styled.button`
 
         font-size:25px;
-        border-radius: 60%;
+        border-radius: 50%;
         width: 80%;
         height: 80%;
         text-align: center; 
@@ -98,13 +104,13 @@ export const DoneButoon=styled.button`
        color: white;
        border:none; 
        background-color: blue;
-       margin-bottom: 15px;
+       margin-bottom: 5px;
 `
 export const HGrideDiv=styled.div`
 
         display: grid;
         grid-template-columns: 350px 200px 200px 200px 130px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         width: 88%;
         height: 70px;
         margin: auto;
@@ -112,7 +118,7 @@ export const HGrideDiv=styled.div`
 `
 export const InerGridDiv= styled.div`
 
-    border: 1px solid black;
+    border: 1px solid grey;
     background-color: white;
     color: black;
     width:${({width})=>width};
@@ -121,7 +127,7 @@ export const InerGridDiv= styled.div`
    border-radius:8px;
 
 `
-//AIzaSyCf_e793r20KkL6HmISnx1yK-xVxuJKWOU
+
 
 export const HGrideInnerDiv=styled.div`
 
@@ -144,3 +150,6 @@ export const HGrideInnerDiv=styled.div`
     background-color: #343b53;
     color:white;
  `
+
+
+//AIzaSyCf_e793r20KkL6HmISnx1yK-xVxuJKWOU

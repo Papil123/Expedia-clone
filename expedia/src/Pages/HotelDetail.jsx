@@ -3,6 +3,7 @@ import "../Css/hotelDetail.css";
 import Nav from '../Components/Nav'
 import CovidTab from '../Components/CovidTab'
 import AboutArea from '../Components/AboutArea';
+import Res from '../Components/Res';
 import {Footer} from '../Components/Footer'
 
 const HotelDetail = () => {
@@ -16,26 +17,26 @@ const HotelDetail = () => {
       </div><br></br>
     <div>
         <div className='container' style={{margin: "auto" }}>
-           <div className='innerDiv1'>
+           <div className='innerDiv1' >
                <div className='imgCont1'>
-                  <img src='https://images.trvl-media.com/hotels/2000000/1530000/1528800/1528788/e1cfe61e.jpg?impolicy=resizecrop&rw=598&ra=fit' alt='hotel1' />
+                  <img src='https://images.trvl-media.com/hotels/3000000/2390000/2386400/2386398/6b453970.jpg?impolicy=resizecrop&rw=598&ra=fit' alt='hotel1' style={{marginTop:"-15px"}} />
                </div>
                <div className='imgCont2'>
                    <div>
-                     <img src='https://images.trvl-media.com/hotels/2000000/1530000/1528800/1528788/c7178182.jpg?impolicy=resizecrop&rw=297&ra=fit' alt='hotel2' />
+                     <img src='https://images.trvl-media.com/hotels/3000000/2390000/2386400/2386398/ebadce58.jpg?impolicy=resizecrop&rw=297&ra=fit' alt='hotel2'style={{marginTop:"-15px"}}  />
                    </div>
                    <div>
-                     <img src='https://images.trvl-media.com/hotels/2000000/1530000/1528800/1528788/dffafa2c.jpg?impolicy=resizecrop&rw=297&ra=fit' alt='hotel3' />
+                     <img src='https://images.trvl-media.com/hotels/3000000/2390000/2386400/2386398/c0d9b6d8.jpg?impolicy=resizecrop&rw=297&ra=fit' alt='hotel3'style={{marginTop:"-15px"}}  />
                    </div>
                    <div>
-                     <img src='https://images.trvl-media.com/hotels/2000000/1530000/1528800/1528788/6bc105d7.jpg?impolicy=resizecrop&rw=297&ra=fit' alt='hotel4' />
+                     <img src='https://images.trvl-media.com/hotels/3000000/2390000/2386400/2386398/3d6ec7c8.jpg?impolicy=resizecrop&rw=297&ra=fit' alt='hotel4'style={{marginTop:"-15px"}}  />
                    </div>
                    <div>
-                     <img src='https://images.trvl-media.com/hotels/2000000/1530000/1528800/1528788/d967f0e6.jpg?impolicy=resizecrop&rw=297&ra=fit' alt='hotel5' />
+                     <img src='https://images.trvl-media.com/hotels/3000000/2390000/2386400/2386398/d7863108.jpg?impolicy=resizecrop&rw=297&ra=fit' alt='hotel5'style={{marginTop:"-15px"}}  />
                    </div>
                </div>
            </div>
-           <div className='innerDiv2'>
+           <div className='innerDiv2' style={{marginTop:"15px"}}>
                 <div className='Option'>
                     <h5>Overview</h5>
                     <h5>Rooms</h5>
@@ -162,7 +163,18 @@ const HotelDetail = () => {
            </div>
         </div>
     </div><br></br>
-
+        <div style={{display: 'flex',justifyContent:"space-around"}}>
+            <div>
+            <Res/>
+            </div>
+            <div>
+            <Res/>
+            </div>
+            <div>
+            <Res/>
+            </div>
+            
+            </div><br></br>
     <div>
         <AboutArea />
     </div><br></br>

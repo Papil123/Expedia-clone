@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Css/AboutArea.css";
+import "./AboutArea.css";
 const AboutArea = () => {
   return (
     <div >

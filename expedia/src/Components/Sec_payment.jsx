@@ -1,17 +1,27 @@
 import React from 'react'
-import styles from './sec_pay.module.css'
+import styles from './sec_payment.module.css'
+import {Link} from "react-router-dom"
 
 // import  styles from "./nav.module.css"
  
-export const Sec_pay = () => {
+export const Secpay = () => {
+
+    const [isAuth,setAuth]=React.useState(false)
 
      const   handleChange =()=>{
 
 
-        alert("Payment successfully")
-     }
+        alert("Payment successfull, Your Reservation Details Will Be Sent To  Your Registered Mobile No.")
+       
+        setAuth(!isAuth)
+    }
+
   return (
+  
+
+    
     <div> 
+       
           <div className={`${styles.fathercont}`}>
         <div className={`${styles.row}`}>
             <div className={`${styles.col-75}`}>
@@ -89,7 +99,8 @@ export const Sec_pay = () => {
                                 </div>
 
                                 <button className={`${styles.btn}`} style={{width: "400px",height: "40px" } } onClick ={()=> handleChange()}>
-                                <h4 style={{color: "rgb(255, 255, 255)",margin: "0px"}}>BOOKING</h4>
+                                    <Link to="/" style={{textDecoration:"none",color:"white"}}>BOOKING</Link>
+                                {/* <h4 style={{color: "rgb(255, 255, 255)",margin: "0px"}}>BOOKING</h4> */}
                                 </button>
     
                             </div>
@@ -116,5 +127,6 @@ export const Sec_pay = () => {
 
 
     </div>
+   
   )
 }

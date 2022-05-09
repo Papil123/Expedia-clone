@@ -57,7 +57,7 @@ const Home = () => {
     </div>
       {/* stay 4 component end div */}
       <div style={{marginTop:"-105px",position:"relative",marginLeft:"-150px"}}>
-          <button style={{backgroundColor:"#3662d8",height:"45px",width:"180px",color:"white",border:"none",fontSize:"18px",borderRadius:"7px",position:"absolute"}}>
+          <button style={{backgroundColor:"#3662d8",height:"45px",width:"180px",color:"white",border:"none",fontSize:"18px",borderRadius:"7px",position:"absolute",marginLeft:"700px"}}>
           <Link to="/search" style={{textDecoration:"none",color:"white"}}>Search</Link>
          
          </button>
@@ -66,7 +66,7 @@ const Home = () => {
          
          
       <div style={{border:"1px solid  rgb(178, 175, 175)",display:"flex", width: "90%",height: "250px",marginLeft: "5%",borderRadius: "10px",marginTop: "150px"}}>
-        <div style={{width:"40%",height: "50%"}}><img style={{ width: "100%", height: "250px",borderRadius: "10px",marginLeft: "-1px"}} src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_BLUE+SEA_300dpi.jpeg" alt=""/></div>
+        <div style={{width:"40%",height: "50%"}}><img style={{ width: "100%", height: "250px",borderRadius: "10px",marginLeft: "0px",marginTop:"-1px"}} src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_BLUE+SEA_300dpi.jpeg" alt=""/></div>
         <div style={{ width:""}}>
             <h1 style={{fontSize: "30px",fontWeight: "500",marginLeft: "3%",textAlign: "left"}}>When you save more you see more</h1>
             <p style={{marginLeft: "3%",textAlign: "left"}}>Join Expedia Rewards to access member discounts of 10% or more every day. Plus,<br/>collect points and unlock even more perks. There’s a lot of world out there, and our  members see more of it.</p>

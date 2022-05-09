@@ -16,7 +16,7 @@ import {Link} from "react-router-dom"
              
         
               <div style={{color:"black",marginTop:"-10px"}} className={`${styles.dropdown}`}>
-                <button  style={{color: "black" ,backgroundColor:"white"}} className={`${styles.drop}`}>More Travel  <span style={{ marginTop:"-2%"}} className="material-icons">
+                <button  style={{color: "black" ,backgroundColor:"white",marginLeft:"15px"}} className={`${styles.drop}`}>More Travel  <span style={{ marginTop:"-2%"}} className="material-icons">
                   expand_more
                   </span></button>
                   <div className={`${styles.dropdownB}`} style={{backgroundColor:"white"}}>

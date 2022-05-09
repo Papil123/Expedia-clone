@@ -5,10 +5,10 @@
 .container{
     width:1100px;
     height:auto;
-    margin-left: 160px;
+    margin-left: 10px;
 }
 .innerDiv1{
-    /* border: 1px solid red; */
+    
     width:1100px;
     height:310px;
     display:flex;
@@ -18,6 +18,7 @@
 .imgCont1>img{
     width:500px;
     height:310px;
+    margin-left:0px;
 }
 
 .imgCont2{
@@ -34,6 +35,7 @@
 .imgCont2>div>img{
     width:295px;
     height:155px;
+    margin-left:0px;
 }
 
 .innerDiv2{
@@ -111,6 +113,7 @@
 }
 .Icon>p{
     margin-top: 10px;
+    
 }
 .Part1{
     margin-top: 20px;
@@ -137,12 +140,15 @@
     /* border: 1px solid red; */
     width:450px;
     height:auto;
+
 }
 .div1>img{
     border-radius: 12px;
     width:350px;
     height: 200px;
     padding-top: 20px;
+    margin-left: 0px;
+   
 }
 .div2{
     width:350px;

@@ -8,8 +8,11 @@
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 3%;
+    
+
   }
   .navdiv {
+   
     margin-left: 2%;
     display: flex;
     gap: 20px;

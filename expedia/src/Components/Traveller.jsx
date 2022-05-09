@@ -24,14 +24,14 @@ const Traveller = () => {
 <>
 {isAuth?
 <>
-<div style={{border:"1px solid green" ,width:"25%",height:"50px",borderRadius:"5px",marginRight:"-350px",marginLeft:"10px"}} type="button">
+<div style={{border:"1px solid blue" ,width:"25%",height:"50px",borderRadius:"5px",marginRight:"-350px",marginLeft:"10px"}} type="button">
 
-<svg style={{marginLeft:"-195px",marginRight:"1px",marginTop:"15px", height: '25px',width:"15%",}}><path fill-rule="evenodd" d="M16 8a4 4 0 11-8 0 4 4 0 018 0zM4 18c0-2.66 5.33-4 8-4s8 1.34 8 4v2H4v-2z" clip-rule="evenodd"></path></svg>
+<svg style={{marginLeft:"0px",marginRight:"1px",marginTop:"15px", height: '25px',width:"15%"}}><path fill-rule="evenodd" d="M16 8a4 4 0 11-8 0 4 4 0 018 0zM4 18c0-2.66 5.33-4 8-4s8 1.34 8 4v2H4v-2z" clip-rule="evenodd"></path></svg>
  <div style={{marginTop:"-40px",width:"70px",marginLeft:"120px",color:"grey",marginBottom:"1px"}}>
  <label>Travellers</label>
  </div>
  
-    <button onClick={()=>{setAuth(!isAuth)}} style={{border:"none",backgroundColor:"white",textAlign:"center",fontSize:"19px"}} >
+    <button onClick={()=>{setAuth(!isAuth)}} style={{border:"none",backgroundColor:"white",textAlign:"center",fontSize:"19px",marginLeft:"55px"}} >
       1 room, {(isAudlts+isChildren)<1?1:isAudlts+isChildren} traveller
   </button> 
  </div>
@@ -246,12 +246,12 @@ const Traveller = () => {
 
 <div style={{border:"1px solid grey" ,width:"25%",height:"50px",borderRadius:"5px",margin:"auto"}} type="button">
 
-<svg style={{marginLeft:"-195px",marginRight:"1px",marginTop:"15px", height: '25px',width:"15%",}}><path fill-rule="evenodd" d="M16 8a4 4 0 11-8 0 4 4 0 018 0zM4 18c0-2.66 5.33-4 8-4s8 1.34 8 4v2H4v-2z" clip-rule="evenodd"></path></svg>
+<svg style={{marginLeft:"0px",marginRight:"15px",marginTop:"5px", height: '25px',width:"15%",}}><path fill-rule="evenodd" d="M16 8a4 4 0 11-8 0 4 4 0 018 0zM4 18c0-2.66 5.33-4 8-4s8 1.34 8 4v2H4v-2z" clip-rule="evenodd"></path></svg>
  <div style={{marginTop:"-40px",width:"70px",marginLeft:"120px",color:"grey",marginBottom:"1px"}}>
  <label>Travellers</label>
  </div>
  
-    <button onClick={()=>{setAuth(!isAuth)}} style={{border:"none",backgroundColor:"white",textAlign:"center",fontSize:"19px"}} >
+    <button onClick={()=>{setAuth(!isAuth)}} style={{border:"none",backgroundColor:"white",textAlign:"center",fontSize:"19px",marginLeft:"65px"}} >
       1 room, {(isAudlts+isChildren)<1?1:isAudlts+isChildren} traveller
   </button> 
  </div>

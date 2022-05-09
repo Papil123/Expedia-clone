@@ -15,12 +15,12 @@
     text-align: left;
 }
 .h5{
-    border-top: 2px solid black;
+    border-top: 1px solid grey;
     /* border: 2px solid red; */
     
 }
 .check{
-    border: 1px solid black;
+    border: 1px solid grey;
 }
 .h4{
     text-decoration: line-through;
@@ -31,4 +31,6 @@
     text-align: center;
     width: 90%;
     margin-left: 5%;
+    height: 35px;
+    border-radius: 10px;
 }

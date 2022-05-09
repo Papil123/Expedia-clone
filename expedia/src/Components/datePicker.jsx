@@ -10,7 +10,7 @@ export default function NativePickers() {
         id="date"
         label="Check-in"
         type="date"
-        defaultValue="2017-05-24"
+        defaultValue="2022-05-09"
         sx={{ width: 160 }}
         InputLabelProps={{
           shrink: true,
@@ -20,7 +20,7 @@ export default function NativePickers() {
         id="date"
         label="Check-out"
         type="date"
-        defaultValue="2017-05-24"
+        defaultValue="2022-05-09"
         sx={{ width: 160,marginRight:"15px",height:"20px"}}
         InputLabelProps={{
           shrink: true,

@@ -54,7 +54,7 @@ const HotelSearch = ({goingTo}) => {
           </div>
           <div style={{height:"100%",marginLeft:"-15px"}}>
             <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"1px"}}>Check-in</p>
-            <h5>19 May</h5>
+            <h5>13 May</h5>
           </div>
         </HGrideInnerDiv>
       </InerGridDiv>
@@ -67,7 +67,7 @@ const HotelSearch = ({goingTo}) => {
           </div>
           <div style={{height:"100%",marginLeft:"-15px"}}>
             <p style={{fontSize:"13px",marginTop:"-1px",marginBottom:"1px"}}>Check-out</p>
-            <h5>20 May</h5>
+            <h5>15 May</h5>
           </div>
         </HGrideInnerDiv>
       </InerGridDiv>
@@ -118,10 +118,10 @@ const HotelSearch = ({goingTo}) => {
       {/* Map Div */}
       <div style={{width:"25%",height:"100px",borderRadius:"10px"}}>
 
-      <iframe style={{width:"95%",height:"90px",borderRadius:"10px" ,border:"none"}} id="gmap_canvas" src="https://maps.google.com/maps?q=indore%20deviAhilya&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
+      <iframe style={{width:"95%",height:"90px",borderRadius:"10px" ,border:"none",marginLeft:"7px"}} id="gmap_canvas" src="https://maps.google.com/maps?q=indore%20deviAhilya&t=&z=13&ie=UTF8&iwloc=&output=embed" ></iframe>
 
       <div style={{border: "none", boxShadow:" rgba(0, 0, 0, 0.35) 0px 5px 15px",width: "95%",margin:"auto",marginTop: "-33px",height: "40px",borderRadius:"8px"}}>
-        <p style={{textAlign:"center",padding:"15px",color:"blue"}}>View in map</p>
+        <p style={{textAlign:"center",padding:"15px",color:"blue",marginTop:"30px"}}>View in map</p>
         </div>
         <hr style={{marginTop:"25px",width:"92%",marginBottom:'10px'}}></hr>
 
@@ -269,7 +269,7 @@ const HotelSearch = ({goingTo}) => {
         <div style={{width:"100%",height:"156px",borderRadius:"7px",display:"flex",gap:"5px",marginBottom:"15px",border:"1px solid black"}}>
 
              {/* card Image start Div */}
-            <div style={{width:"32%",height:"156px"}}>
+            <div style={{width:"32%",height:"156px",marginTop:"-15px"}}>
                 <img  src={img_url1} style={{width:"100%",height:"100%",borderRadius:"7px",marginLeft:"0px"}} />
             </div>   
             
@@ -280,7 +280,7 @@ const HotelSearch = ({goingTo}) => {
 
               <div style={{textAlign:"left"}}>
                 <h4 style={{marginTop:"5px",marginBottom:"-10px"}}>{title}</h4>
-                  <p style={{fontSize:"13px"}}>15.14 km from Dabolim (GOI)</p>
+                  <p style={{fontSize:"13px",marginTop:"15px"}}>15.14 km from Dabolim (GOI)</p>
               </div>
 
               <div style={{width:"100%",height:"78px",display:"flex"}}>
@@ -300,7 +300,7 @@ const HotelSearch = ({goingTo}) => {
               
               <div style={{width:"100%",height:"20px",marginTop:"-15px",display: "flex",justifyContent:"space-between"}}>
 
-                <div style={{width:"30%",height:"19px",fontSize:"15px",color:"black"}}>{`3.0/5 (1 review)`}</div>
+                <div style={{width:"30%",height:"19px",fontSize:"15px",color:"black",marginTop:"10px"}}>{`4.1/5 (1 review)`}</div>
                 <div style={{width:"30%",height:"19px",fontSize:"13px"}}>{`Rs 17,558 total`}</div>
               </div>
                  
