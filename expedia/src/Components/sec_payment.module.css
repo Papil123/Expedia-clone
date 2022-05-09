@@ -4,16 +4,17 @@
             border-radius: 5px;
             width: 100px;
             height: 40px;
-
+            /* border: 2 px solid red; */
         }
 
         .row {
-          
+            /* border: 2px solid red; */
            width: 100%;
             display: flex;
             flex-wrap: wrap;
 
-                       
+                        /* border: solid; */
+                        /* justify-content: center; */
                         
         }
 
@@ -24,14 +25,17 @@
         }
 
         .container {
-           
+            /* border: 3px soild red; */
+             /* border: 2px solid red; */
               width:850px;
             background-color: #f2f2f2;
             padding: 5px 20px 15px 20px;
+            /* border: 1px solid lightgrey; */
             border-radius: 3px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
              margin-left: 7%;
-
+             /* text-align: left; */
+             /* padding-left: 0%; */
         }
 
         input {
@@ -57,6 +61,8 @@
          
             color: white;
             background-color:  rgb(60, 107, 220);
+            /* padding: 12px;
+            margin: 10px 0; */
             margin-top: 50px;
             margin-left: 6%;
             border: none;
@@ -88,7 +94,8 @@
         }
 
        .fathercont{
-          
+           /* border: 1px solid black; */
+           /* padding-left: 0%; */
            text-align: left;
 
        }

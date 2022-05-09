@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './payment.module.css'
+import styles from './pay.module.css'
 // import  styles from "./nav.module.css"
 export const Payment = () => {
   return (

@@ -101,7 +101,9 @@ export const Sec_pay = () => {
                
                 
             </div>
-            
+            {/* <button className={`${styles.btn}`} style={{width: "400px",height: "40px" , onclick:"window.location.href='aftercheckout.html'"}}>
+                   <h4 style={{color: "rgb(255, 255, 255)",margin: "0px"}}>BOOKING</h4>
+            </button> */}
             
                
         </div>
