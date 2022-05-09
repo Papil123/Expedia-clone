@@ -1,0 +1,34 @@
+
+.nv{
+    border-bottom: 1px solid rgb(191, 185, 185);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    margin-top: 5%;
+    margin-left: 54%;
+}
+.an:hover{
+    color: #0065B8;
+}
+.lock{
+    margin-left: 4% ;
+    color: #0065B8;
+    background-color: #f2f2f2;
+}
+.details{
+    margin-left: 4% ;
+    font-weight: 600;
+    background-color: #f2f2f2;
+}
+.intro{
+    display :flex;
+}
+.first{
+
+padding-top: 10px;
+padding-bottom: 0px;
+
+}
+
